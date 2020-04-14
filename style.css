@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bu
+{   
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #262626;
+}
+.btn
+{
+    color: gold;
+    border: 2px solid gold;
+    padding: 18px 36px;
+    background-color: transparent;
+    font-size: 16px;
+    letter-spacing: 1px;
+    box-shadow: inset 0 0 0 0 gold;
+    cursor: pointer;
+    transition: 1s all;
+}
+.down:hover
+{
+    box-shadow: inset 0 100px 0 0 gold;
+    color: #262626;
+}
+.right:hover
+{
+    box-shadow: inset 400px 0 0 0 gold;
+    color: #262626;
+}
+.left:hover
+{
+    box-shadow: inset 0 0 0 0 gold;
+    color: #262626;
+}
+.inside:hover
+{
+    box-shadow: inset 0 0 0 50px gold;
+    color: #262626;
+}
+.diagonal:hover
+{
+    box-shadow: inset 400px 50px 0 0 gold;
+    color: #262626;
+}
